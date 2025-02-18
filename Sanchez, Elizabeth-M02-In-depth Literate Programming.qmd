@@ -1,0 +1,170 @@
+---
+title: "M02-In-depth Literate Programming"
+author: "Elizabet Sanchez"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Instructor's Lecture Takeaways
+
+## **Prompt:** What did you find impressive about the lecture?
+
+**Dr. Jung's lecture on Quarto** highlighted its **versatility** in creating **well-structured, reproducible documents** for research, presentations, and reports. Some of the most impressive aspects of Quarto include:
+
+-   **Integration of multiple programming languages** -- *Quarto seamlessly works with* R *and* Python, *making it a powerful tool for data analysis and visualization.*\
+-   **Formatting flexibility** -- *It allows users to format text, embed citations, and customize tables directly within their documents, enhancing both clarity and professionalism.*\
+-   **Publishing feature** -- *One of the standout capabilities is the ability to share work online effortlessly with a simple command.*\
+-   **Academic and professional applications** -- *With its structured approach, Quarto is a valuable resource for both academic research and industry-related reports.*
+
+------------------------------------------------------------------------
+
+## **Prompt:** How do you see yourself using Quarto in the future?
+
+I can definitely see myself using Quarto more frequently for both my studies and potential job applications. Since I often work with data and need to present findings clearly, Quarto could be an efficient way to organize information, whether it's for taking structured notes in class or preparing detailed reports.
+
+Some key benefits of using Quarto in my workflow include:
+
+-   **Multi-format support** -- *Quarto allows me to generate PDFs, HTML, and presentations seamlessly.*\
+-   **Efficiency in organizing information** -- *It helps structure notes, reports, and presentations in a clean and reproducible format.*\
+-   **Professionalism** -- *Using Quarto ensures my reports are polished, consistent, and easy to update when needed.*
+
+Learning how to incorporate Quarto into my workflow could help streamline my projects and enhance my ability to communicate ideas effectively.
+
+------------------------------------------------------------------------
+
+## **Prompt:** What eye-catching effects are you excited about?
+
+I'm also excited about the more advanced **visual effects and customization options** that will be introduced in later modules. Being able to improve the aesthetics of my documents with **formatting, interactive elements, and better design choices** could make my work more engaging.
+
+Some aspects I look forward to exploring include:
+
+-   **Improved document aesthetics** -- *Using formatting techniques to create visually appealing reports.*\
+-   **Interactive elements** -- *Embedding widgets, collapsible sections, or dynamic visualizations.*\
+-   **Enhanced presentations** -- *Leveraging Quarto's capabilities to produce professional and engaging reports.*
+
+As I continue learning about Quarto, I'm interested in exploring how it can enhance not just the technical side of my work but also the **presentation aspect**, making my reports and presentations more polished and professional.
+
+> ***Key Takeaway:***
+> Quarto's **integration of multiple programming languages** and **flexible formatting options** make it a **versatile** tool for **data analysis, research, and professional presentations**.
+
+# Posit Video summary
+
+## **Prompt:** Summarize the video from Posit about Quarto's capabilities.
+
+What I learned from the **Quarto Workshop** is that **Quarto is a powerful publishing system** that expands on **R Markdown** by supporting **multiple programming languages**, including **R, Python, and Julia**. Unlike R Markdown, which primarily focuses on R, Quarto allows for **seamless integration** across different coding environments.
+
+Some key capabilities of Quarto include:
+
+-   **Multi-format output** -- *Quarto can generate various document types, including HTML reports, PDFs, Word documents, presentations, and even websites---all from a single source.*\
+-   **Cross-platform compatibility** -- *Works across multiple editors like RStudio, Jupyter, and VS Code, making it accessible based on my preferred tools.*\
+-   **Enhanced formatting options** -- *Provides YAML-based customization to control themes, add a table of contents, and format code blocks efficiently.*
+
+------------------------------------------------------------------------
+
+## **Prompt:** What did you find most interesting about Quarto?
+
+One of the **most interesting aspects** I learned was how **Quarto simplifies formatting and customization**:
+
+-   **YAML for layouts and themes** -- *Instead of manually adjusting layouts, YAML makes it easy to manage styles.*\
+-   **Fenced divs and spans** -- *Allows structured content, such as callout boxes and side-by-side layouts, enhancing document presentation.*\
+-   **New hash pipe (`#|`) syntax for code chunks** -- *This improvement maintains clear and consistent formatting across different programming languages, making it easier to read and edit.*
+
+These features make **Quarto a more user-friendly and flexible** tool for content creation.
+
+------------------------------------------------------------------------
+
+## **Prompt:** What are your key takeaways from Quarto's collaboration and project management features?
+
+A **major takeaway** for me is how **Quarto improves collaboration and project management**, making it a **valuable tool for long-term projects**.
+
+Some benefits I found particularly useful:
+
+-   **Quarto Projects** -- *Helps organize multi-file documents efficiently, making it ideal for blogs, books, or research papers.*\
+-   **Publishing options** -- *Supports publishing on GitHub Pages, Netlify, RStudio Connect, and Quarto Pub, making content sharing seamless.*\
+-   **Compatibility with R Markdown** -- *While Quarto builds on R Markdown, its new features make it a better tool for streamlined content creation and publishing.*
+
+Overall, I can see how Quarto's **advanced capabilities** make it an **effective and modern tool** for professional and academic work.
+
+> ***Key Takeaway:***
+> Quarto's **integration of multiple programming languages** and **flexible formatting options** make it a **versatile** tool for **data analysis, research, and professional presentations**.
+
+# **3. Styled Assignment: GreenThreads Website Update**
+
+## **Prompt:** Choose a previous class assignment where you had to write a couple of pages. Copy it into Quarto and style it to make it nice.
+
+For this section, I have chosen **Assignment #2**, where I analyzed and improved the **GreenThreads website** to enhance **user engagement and sales**. The following report is styled using **Quarto's formatting features**, making it more structured, readable, and professional.
+
+------------------------------------------------------------------------
+
+### **Introduction**
+
+In this project, I updated the **GreenThreads website** to **better engage visitors** and **motivate them to purchase** or spend more time exploring the site. The changes were made using **marketing theories**, ensuring that each modification improves the **aesthetic appeal** and **enhances functionality** from a **consumer behavior perspective**.
+
+------------------------------------------------------------------------
+
+### **Website Enhancements & Marketing Theories Applied**
+
+#### **1. New Customer Offer (Reciprocity Principle)**
+
+A **new 15% discount** for first-time customers was introduced.
+
+-   **Marketing Theory Applied:**
+    -   This is based on the **Reciprocity Principle**, where giving a small benefit (discount) increases the likelihood of the customer reciprocating with a purchase.
+-   **Implementation & Expected Impact:**
+    -   The **"Sale ends today!"** message was added to create **Scarcity & Urgency**.
+    -   The **Scarcity & Urgency Theory** suggests that customers act faster when they believe an offer is time-sensitive.
+
+------------------------------------------------------------------------
+
+#### **2. Mobile Optimization (Hick's Law)**
+
+The **mobile version** of the website was updated for **better usability** and a **cleaner layout**.
+
+-   **Key Enhancements:**
+    -   **Reduced clutter**: Optimized images and text to ensure a more intuitive experience.
+    -   **Navigation improvements**:
+        -   The **hamburger menu** was moved to the **left** side.\
+        -   The **shopping cart icon** was positioned on the **right** for quick access.
+-   **Hick's Law Applied:**
+    -   **Simplified choices** reduce **cognitive overload**, making the website **more user-friendly**.
+
+------------------------------------------------------------------------
+
+#### **3. Call-to-Action Enhancements (Gestalt Principles)**
+
+A **"Shop Now" button** was strategically placed to **guide customers toward immediate purchases**.
+
+-   **Marketing Theory Used:**
+    -   **Gestalt Principles of Visual Hierarchy** -- *Organizing content to guide user focus toward key actions.*
+-   **Implementation & Expected Impact:**
+    -   The **"Shop Now" button** makes the **path to purchase** **shorter and clearer**, leading to **higher conversion rates**.
+
+------------------------------------------------------------------------
+
+### **Conclusion**
+
+The **enhancements to the GreenThreads website** were designed using **psychological marketing principles** to improve user engagement and sales. By applying:
+
+-   **Reciprocity** *(encouraging purchases with a discount)*\
+-   **Scarcity & Urgency** *(creating a time-sensitive offer to drive conversions)*\
+-   **Hick's Law** *(simplifying navigation for a better user experience)*\
+-   **Gestalt Principles** *(optimizing layout for clear call-to-action guidance)*
+
+The website now offers a **smoother shopping experience**, making it **more engaging, accessible, and conversion-focused**.
+
+------------------------------------------------------------------------
+
+> ***Key Takeaway:***
+> Applying **psychological marketing strategies** can significantly enhance **user engagement** and **conversion rates** by making a website more **intuitive, visually appealing, and action-oriented**.
+
+
+
